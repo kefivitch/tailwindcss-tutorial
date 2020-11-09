@@ -1,0 +1,26 @@
+{
+    "name": "tailwindcss-tutorial",
+    "version": "1.0.0",
+    "description": "tailwindcss-tutorial",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss css/tailwind.css -o public/builds/tailwind.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kefivitch/tailwindcss-tutorial.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kefivitch/tailwindcss-tutorial/issues"
+    },
+    "homepage": "https://github.com/kefivitch/tailwindcss-tutorial#readme",
+    "dependencies": {
+        "autoprefixer": "^9.0.0",
+        "postcss-cli": "^8.2.0",
+        "postcss-loader": "^4.0.4",
+        "tailwindcss": "^1.9.6"
+    }
+}
